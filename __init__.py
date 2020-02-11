@@ -2,7 +2,7 @@
 import logging
 
 import voluptuous as vol
-from homeassistant.components.ombi.pyaioombi import Ombi
+from pyaioombi import Ombi
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.core import callback
 import asyncio
